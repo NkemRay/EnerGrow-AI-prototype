@@ -1,0 +1,101 @@
+Location,Avg Temp (°C),Crop Type,Harvest Quantity (kg),Current Fuel,Fuel Consumption (kg),Health Impact Score,Post-Harvest Loss (%),Income Level,Access to Financing,Youth Involvement,Technology Adopted,Cost Saving (₦),CO2 Emission Reduction (kg)
+Ogun,29,Rice,1630,LPG,30,3,11.69,Low,No,Yes,Solar Dryer,2130,5.41
+Kano,30,Cassava,3985,Firewood,69,5,14.26,Medium,Yes,Yes,Efficient Cookstove,4558,7.79
+Ogun,29,Rice,2306,Charcoal,56,3,10.74,High,No,No,Solar Refrigeration,4888,6.3
+Ogun,29,Rice,2561,LPG,18,2,6.47,Medium,No,Yes,Efficient Cookstove,6014,8.47
+Lagos,31,Maize,3959,Firewood,15,6,13.2,Low,No,No,None,0,0
+Ogun,29,Cassava,1315,Firewood,23,7,12.81,High,No,No,Efficient Cookstove,6887,12.14
+Ogun,29,Cassava,992,Firewood,24,1,5.23,Low,Yes,Yes,Solar Dryer,7618,19.14
+Kaduna,28,Cassava,878,Firewood,48,10,6.74,High,No,Yes,Solar Dryer,4454,18.38
+Enugu,27,Cassava,2395,Firewood,44,1,10.74,High,No,No,Solar Dryer,6493,14.88
+Lagos,31,Cassava,2381,Firewood,22,3,5.47,Medium,Yes,No,None,0,0
+Enugu,27,Cassava,1040,Firewood,41,7,9.35,Low,No,No,Solar Refrigeration,4693,14.13
+Ogun,29,Maize,2481,Charcoal,67,7,18.44,Low,Yes,Yes,Efficient Cookstove,4675,12.05
+Kaduna,28,Maize,1979,Charcoal,46,1,6.8,Low,No,Yes,Efficient Cookstove,5304,13.08
+Lagos,31,Maize,1791,Firewood,11,3,9.51,Low,Yes,No,Efficient Cookstove,7685,5.66
+Lagos,31,Cassava,2161,Firewood,53,10,19.78,Low,No,No,Solar Dryer,2766,21.06
+Enugu,27,Cassava,697,Firewood,57,1,7.26,Medium,No,No,Efficient Cookstove,3369,15.24
+Kaduna,28,Maize,2234,Firewood,42,8,10.8,High,Yes,Yes,Solar Dryer,7534,22.55
+Kaduna,28,Maize,2691,LPG,66,4,12.94,Low,Yes,No,None,0,0
+Kaduna,28,Maize,3804,Firewood,57,3,17.84,Low,No,No,None,0,0
+Ogun,29,Rice,753,Firewood,34,3,19.6,Low,Yes,No,Efficient Cookstove,2956,9.49
+Lagos,31,Maize,897,Firewood,29,8,14.74,High,No,No,Solar Dryer,6565,10.3
+Enugu,27,Maize,2299,Charcoal,43,5,12.54,Medium,No,Yes,Biogas,6754,16.44
+Lagos,31,Maize,3743,Solar,38,2,18.72,Low,Yes,No,Efficient Cookstove,6276,16.45
+Ogun,29,Rice,690,Firewood,41,7,9.03,Low,Yes,Yes,None,0,0
+Kaduna,28,Cassava,1125,Charcoal,31,7,7.1,Medium,No,No,Solar Refrigeration,6341,12.19
+Enugu,27,Maize,1037,LPG,34,4,18.7,Medium,No,No,Solar Refrigeration,6495,6.02
+Kaduna,28,Maize,1615,Charcoal,41,7,15.08,Low,Yes,No,None,0,0
+Kano,30,Maize,2215,Firewood,24,6,13.06,Low,No,Yes,None,0,0
+Ogun,29,Rice,1491,Charcoal,56,3,14.56,Medium,No,No,Efficient Cookstove,6752,12.98
+Kaduna,28,Maize,2474,Firewood,35,5,6.21,Low,No,Yes,None,0,0
+Kano,30,Maize,1641,LPG,49,1,9.2,High,No,No,Solar Refrigeration,4294,5.95
+Kano,30,Maize,1496,Firewood,38,5,6.41,Low,No,Yes,Solar Dryer,4479,21.14
+Ogun,29,Maize,2257,Charcoal,67,10,19.24,High,Yes,Yes,None,0,0
+Lagos,31,Cassava,1015,Charcoal,25,7,19.16,High,No,No,Solar Refrigeration,5746,17.87
+Lagos,31,Rice,3998,Solar,12,1,19.42,High,Yes,Yes,Solar Dryer,5969,5.78
+Kano,30,Cassava,3396,Charcoal,38,10,15.22,Low,Yes,No,Solar Refrigeration,7745,17.58
+Enugu,27,Maize,1228,LPG,66,4,7.66,Medium,No,No,Efficient Cookstove,7073,10
+Enugu,27,Maize,2048,LPG,44,1,10.67,Medium,No,Yes,Solar Dryer,7731,5.22
+Lagos,31,Rice,764,Firewood,23,4,13.6,Medium,No,Yes,Efficient Cookstove,4938,9.25
+Enugu,27,Cassava,3116,Firewood,62,10,19.61,High,Yes,No,Efficient Cookstove,6846,7.86
+Kano,30,Rice,3460,Firewood,16,8,6.09,High,No,Yes,Solar Dryer,4386,16.63
+Enugu,27,Maize,999,Firewood,16,9,13.88,Low,No,No,Efficient Cookstove,4214,13.48
+Kano,30,Maize,3697,Charcoal,22,2,12.03,Low,Yes,Yes,Solar Refrigeration,5072,18.62
+Ogun,29,Rice,1714,Charcoal,34,8,12.93,Low,No,No,Efficient Cookstove,6910,22.82
+Enugu,27,Rice,1752,Firewood,28,4,6.13,Low,Yes,Yes,None,0,0
+Kaduna,28,Rice,3518,Firewood,41,8,10.92,Low,Yes,Yes,Solar Refrigeration,5719,12.07
+Kano,30,Maize,1368,None,0,4,11.8,Low,Yes,No,Solar Refrigeration,2924,7.66
+Kaduna,28,Rice,2117,Charcoal,14,9,11.27,High,No,Yes,Solar Dryer,3824,20.55
+Kano,30,Rice,2724,Firewood,35,9,19.55,High,No,No,Efficient Cookstove,2384,5.27
+Ogun,29,Rice,2168,None,0,1,13.78,Medium,No,Yes,Solar Dryer,7997,10.03
+Enugu,27,Cassava,1969,Solar,49,4,5.7,Low,Yes,No,Efficient Cookstove,2770,15.4
+Ogun,29,Rice,735,Charcoal,39,9,13.85,Low,No,No,Solar Refrigeration,4122,9.26
+Ogun,29,Rice,1829,Charcoal,39,3,18.56,Low,No,No,Efficient Cookstove,6854,15.47
+Lagos,31,Rice,3447,Charcoal,26,10,16.53,Low,Yes,No,Efficient Cookstove,5818,16.59
+Kaduna,28,Maize,1260,Charcoal,25,6,15.47,Low,No,No,None,0,0
+Kaduna,28,Cassava,2469,Charcoal,60,3,17.33,Low,Yes,Yes,Efficient Cookstove,2523,9.13
+Kano,30,Maize,2253,Charcoal,18,10,16.99,Medium,Yes,No,None,0,0
+Enugu,27,Maize,3351,LPG,58,3,7.77,Low,Yes,No,Solar Refrigeration,4125,14.25
+Enugu,27,Maize,3246,Firewood,16,3,18.43,Medium,No,Yes,Efficient Cookstove,3906,9.85
+Lagos,31,Cassava,2575,Firewood,66,1,8.17,Low,Yes,No,Efficient Cookstove,3603,12.1
+Lagos,31,Maize,2658,Charcoal,31,2,13.37,Medium,No,Yes,Efficient Cookstove,4739,17.92
+Kano,30,Maize,2862,None,0,1,19.01,Low,Yes,Yes,Efficient Cookstove,5421,8.73
+Lagos,31,Maize,742,Firewood,46,4,19.96,High,No,No,Solar Dryer,2117,10.16
+Kaduna,28,Rice,693,Charcoal,17,10,9.2,Medium,Yes,Yes,Efficient Cookstove,2224,19.72
+Ogun,29,Maize,2637,LPG,47,1,12.59,High,Yes,No,Efficient Cookstove,4039,7.69
+Kano,30,Rice,2560,Charcoal,29,1,7.08,Low,Yes,No,Solar Refrigeration,5490,11.98
+Lagos,31,Rice,735,Charcoal,62,8,19.86,Low,Yes,No,Biogas,5643,21.84
+Kaduna,28,Cassava,2817,LPG,44,1,7.8,Low,No,No,Efficient Cookstove,3065,12.85
+Kaduna,28,Cassava,2388,LPG,24,1,8.48,High,Yes,No,None,0,0
+Kaduna,28,Cassava,697,Solar,16,3,10.02,Low,No,No,Efficient Cookstove,3254,16.46
+Enugu,27,Maize,1620,LPG,36,3,7.15,Low,No,No,Biogas,7237,21.43
+Ogun,29,Maize,3495,Firewood,38,8,7.25,Low,No,No,Solar Refrigeration,3955,15.85
+Kaduna,28,Cassava,2183,Firewood,19,8,13.75,Low,No,No,Solar Dryer,4188,7.78
+Kano,30,Cassava,2139,Solar,21,4,13.48,Medium,No,No,Solar Dryer,2603,12.49
+Lagos,31,Maize,3600,Firewood,50,6,18.66,Low,Yes,Yes,Solar Dryer,5030,23.42
+Kaduna,28,Cassava,3208,Firewood,62,9,8.08,Medium,No,Yes,Efficient Cookstove,3625,23.4
+Kano,30,Maize,974,LPG,26,4,8.37,Low,Yes,Yes,Efficient Cookstove,6805,5.68
+Lagos,31,Maize,562,Firewood,35,2,14.95,Low,No,Yes,Efficient Cookstove,7182,24.94
+Lagos,31,Maize,2259,Firewood,32,3,8.15,High,Yes,Yes,Solar Dryer,2285,21.73
+Kaduna,28,Maize,3137,LPG,59,2,13.02,Low,No,No,Solar Dryer,5335,22.24
+Kaduna,28,Maize,1981,Solar,43,4,17.01,High,No,No,Efficient Cookstove,6408,9.44
+Kaduna,28,Cassava,827,Firewood,56,5,7.68,Medium,Yes,Yes,Solar Dryer,3311,22.11
+Kaduna,28,Rice,2023,Charcoal,30,7,18.45,Low,Yes,Yes,Solar Dryer,5452,22.53
+Enugu,27,Maize,1013,Solar,14,4,10.04,High,Yes,Yes,None,0,0
+Enugu,27,Maize,2257,Firewood,62,3,19.23,Medium,Yes,No,Efficient Cookstove,6223,8.64
+Kano,30,Maize,3073,LPG,11,1,11.04,Low,No,No,Solar Dryer,4076,8.43
+Enugu,27,Maize,3717,Charcoal,51,4,12.47,Low,No,No,Biogas,2341,7.74
+Lagos,31,Maize,1230,Charcoal,21,9,12.41,Medium,No,No,Biogas,5629,5.94
+Ogun,29,Rice,3366,Firewood,60,10,6.02,High,No,No,Biogas,3250,23.99
+Enugu,27,Maize,2285,Firewood,29,3,13.93,Low,No,No,Efficient Cookstove,2153,14.48
+Lagos,31,Maize,1540,Charcoal,52,8,11.52,Low,No,No,Solar Refrigeration,5549,5.11
+Ogun,29,Maize,3615,LPG,58,1,16.85,Medium,No,Yes,None,0,0
+Kaduna,28,Cassava,3208,LPG,46,2,14.56,High,No,No,Solar Refrigeration,2488,23.88
+Kano,30,Cassava,900,Firewood,30,6,18.73,Low,No,Yes,None,0,0
+Kano,30,Maize,2000,Charcoal,39,4,17.67,Low,No,Yes,Efficient Cookstove,4667,7.41
+Kano,30,Rice,1694,Firewood,64,7,5.98,Low,No,No,Efficient Cookstove,4769,15.4
+Enugu,27,Cassava,3441,Charcoal,44,10,19.86,Low,Yes,Yes,None,0,0
+Kaduna,28,Rice,528,LPG,38,2,12.2,Medium,No,No,Biogas,2920,11.73
+Ogun,29,Cassava,2550,Charcoal,65,2,9.44,Low,Yes,Yes,None,0,0
+Lagos,31,Maize,3915,Firewood,68,10,16.97,Low,No,No,None,0,0
