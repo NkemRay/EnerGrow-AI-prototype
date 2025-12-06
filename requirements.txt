@@ -1,6 +1,6 @@
 pandas
 numpy
-scikit-learn
+scikit-learn==1.2.2
 joblib
 streamlit
 shap
@@ -9,3 +9,4 @@ seaborn
 fpdf
 requests
 imbalanced-learn
+
