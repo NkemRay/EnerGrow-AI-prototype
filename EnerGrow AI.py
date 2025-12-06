@@ -8,8 +8,8 @@ import numpy as np
 # ======================
 @st.cache_resource
 def load_all():
-    model = joblib.load("model.pkl")
-    encoders = joblib.load("encoders.pkl")
+    model = joblib.load("energrow_model.pkl")
+    encoders = joblib.load("label_encoders.pkl")
     scaler = joblib.load("scaler.pkl")
     return model, encoders, scaler
 
