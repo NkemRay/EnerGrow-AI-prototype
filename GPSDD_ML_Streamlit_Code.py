@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import joblib
+
 
 st.title("Clean Energy Recommendation for Smallholder Farmers")
 
@@ -46,4 +46,5 @@ if st.button("Recommend Clean Energy"):
         "This recommendation is based on patterns learned from similar farmers "
         "in the EnerGrow dataset."
     )
+
 
