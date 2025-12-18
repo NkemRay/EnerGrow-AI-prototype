@@ -12,9 +12,11 @@ st.write("Enter basic information to get a clean energy recommendation.")
 # -----------------------------
 # User Inputs
 # -----------------------------
-current_fuel = st.selectbox(
-    "Current Cooking / Processing Fuel",
-    ["Firewood", "Charcoal", "LPG", "Electricity"]
+fuel_consumption = st.number_input(
+    "Average Fuel Consumption (kg per month)",
+    min_value=0.0,
+    value=30.0,
+    help="Typical monthly fuel used for cooking or processing"
 )
 
 income = st.selectbox(
@@ -97,3 +99,4 @@ if st.button("Recommend Clean Energy"):
         "Impact values are estimates based on typical performance of clean energy technologies. "
         "Actual results may vary by location, usage, and crop type."
     )
+
