@@ -9,6 +9,9 @@ model = joblib.load("clean_energy_recommender_model.joblib")
 
 st.write("Enter basic information to get a clean energy recommendation.")
 
+# -----------------------------
+# User Inputs
+# -----------------------------
 current_fuel = st.selectbox(
     "Current Cooking / Processing Fuel",
     ["Firewood", "Charcoal", "LPG", "Electricity"]
@@ -25,7 +28,7 @@ financing = st.selectbox(
 )
 
 post_harvest_loss = st.slider(
-    "Post-Harvest Loss (%)",
+    "Typical Post-Harvest Loss (%)",
     0, 50, 15
 )
 
@@ -37,15 +40,60 @@ input_data = pd.DataFrame([{
     "Post-Harvest Loss (%)": post_harvest_loss
 }])
 
+# -----------------------------
+# Impact Assumptions
+# -----------------------------
+LOSS_REDUCTION_RATES = {
+    "Solar Dryer": 0.40,
+    "Solar Cold Storage": 0.60,
+    "Improved Cookstove": 0.10,
+    "Efficient LPG Stove": 0.05,
+    "Solar Home System": 0.15
+}
+
+CO2_FACTORS = {
+    "Firewood": 1.8,
+    "Charcoal": 2.4,
+    "LPG": 1.5,
+    "Electricity": 0.9
+}
+
+CLEAN_TECH_CO2 = {
+    "Improved Cookstove": 0.9,
+    "Efficient LPG Stove": 1.0,
+    "Solar Dryer": 0.2,
+    "Solar Cold Storage": 0.3,
+    "Solar Home System": 0.1
+}
+
+AVERAGE_PRODUCE_VALUE = 500_000  # NGN per season (assumption)
+
+# -----------------------------
+# Prediction + Impact Display
+# -----------------------------
 if st.button("Recommend Clean Energy"):
     recommendation = model.predict(input_data)[0]
 
     st.success(f"🌱 Recommended Clean Energy Technology: **{recommendation}**")
 
+    # --- Impact calculations ---
+    reduction_rate = LOSS_REDUCTION_RATES.get(recommendation, 0.1)
+    loss_reduced = post_harvest_loss * reduction_rate
+    income_gain = (loss_reduced / 100) * AVERAGE_PRODUCE_VALUE
+
+    co2_saved = CO2_FACTORS.get(current_fuel, 0) - CLEAN_TECH_CO2.get(recommendation, 0)
+    co2_saved = max(co2_saved, 0)
+
+    # --- Display impacts ---
+    st.subheader("🌍 Estimated Impact")
+
+    col1, col2, col3 = st.columns(3)
+
+    col1.metric("📉 Loss Reduction", f"{loss_reduced:.1f}%")
+    col2.metric("💰 Income Increase", f"₦{income_gain:,.0f}")
+    col3.metric("🌱 CO₂ Savings", f"{co2_saved:.2f} tCO₂/year")
+
     st.caption(
-        "This recommendation is based on patterns learned from similar farmers "
-        "in the EnerGrow dataset."
+        "Impact values are estimates based on typical performance of clean energy technologies. "
+        "Actual results may vary by location, usage, and crop type."
     )
-
-
-
